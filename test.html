@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My profile</title>
+    </head>
+    <body>
+        <p>Giới thiệu bản thân:
+        </p>
+        <p>
+            <b>Tên: Phùng Hu Nu</b> <br/>
+            Quê: Lai Châu <br />
+            Sở thích: ăn, ngủ, nghỉ, xem phim, nghe nhạc.....<br />
+            Tình trạng quan hệ: Độc thân
+        </p>
+        <p>Đây là table bình thường</p>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <td>Hàng 1-Cột 1</td>
+                <td>Hàng 1-Cột 2</td>
+            </tr>
+            <tr>
+                <td>Hàng 2-Cột 1</td>
+                <td>Hàng 2-Cột 2</td>
+            </tr>
+        </table>
+        <p>Đây là table trộn hàng trộn cột</p>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <td colspan="3">1</td>
+                <td>2</td>    
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td rowspan="2">7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+            </tr>
+        </table>
+        <p>VIDEO</p>
+        <video autoplay="1" controls="controls">
+            <source src="./lovely.mp4" type="video/mp4" />
+        </video>
+        <br />
+        <audio controls="controls" src="./yeu5.m4a" type="audio/m4a"></audio>
+        <br/>
+        <form>
+            <p>
+                Đây là TEXTBOX <br />
+                <input type="text" />
+            </p>
+            <p>
+                Đây là CHECKBOX <br />
+                <input type="checkbox" />
+            </p>
+            <p>
+                Đây là RadioCheckBox <br />
+                <input type="radio" name="giới tính" checked="checked" /> Nam <br />
+                <input type="radio" name="giới tính" /> Nữ
+            </p>
+            <p>
+                Đây là nút chọn FILE <br />
+                <input type="file" />
+            </p>
+            <p>
+                Đây là DropDown Lits <br />
+                <select>
+                    <optgroup label="NHÓM 1">
+                        <option> Giá trị 1</option>
+                        <option> Giá trị 2</option>
+                        <option> Giá trị 3</option>
+                    </optgroup>
+                    <optgroup label="NHÓM 2">
+                        <option> Giá trị A1</option>
+                        <option> Giá trị A2</option>
+                        <option> Giá trị A3</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <textarea cols="100" rows="15"></textarea>
+            </p>
+        </form>
+        <p>Đây là IFRAME </p>
+        <iframe src="./tai-lieu.html" width="400" height="300" frameborder="1"></iframe>
+    </body>
+</html>
