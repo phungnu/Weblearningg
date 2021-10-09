@@ -6,12 +6,25 @@ p {
     margin-inline-end: 0px;
 }
 
+.text1 {
+    color: aqua;
+}
+
 .logo {
+    margin-left: 100px;
+}
+
+.logo img {
     display: inline;
     width: 100px;
     float: left;
 }
 
-.text1 {
-    color: aqua;
+.text {
+    margin-left: 600px;
+    margin-right: auto;
+}
+
+.link {
+    padding-top: 30px;
 }
